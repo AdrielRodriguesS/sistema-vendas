@@ -1,5 +1,6 @@
 
 public class Empresa {
+	
 	private Integer id;
 	private String nome;
 	private String cnpj;
@@ -7,11 +8,9 @@ public class Empresa {
 	private Double saldo;
 
 	public Empresa() {
-		super();
 	}
 
 	public Empresa(Integer id, String nome, String cnpj, Double taxa, Double saldo) {
-		super();
 		this.id = id;
 		this.nome = nome;
 		this.cnpj = cnpj;
